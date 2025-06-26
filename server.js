@@ -26,7 +26,7 @@ const server = http.createServer((req, res) => {
 
     fs.readFile( file, function(err, content){
         if  (err) {
-            console.log("NOT FOUND" + file);
+            console.log("NOT FOUND " + file);
             res.statusCode = 404;
             res.end();
         } else {
