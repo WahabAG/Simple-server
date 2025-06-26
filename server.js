@@ -30,7 +30,7 @@ const server = http.createServer((req, res) => {
             res.statusCode = 404;
             res.end();
         } else {
-            console.log("Returning" + pathName);
+            console.log("Returning " + pathName);
             res.setHeader("X-Content-Type-Options", "nonsiff");
         const mime = mimeType.lookup(pathName);
         res.writeHead(200, {"Content-Type" : mime});
