@@ -1,0 +1,12 @@
+body {
+    background-color:#66BFBF;
+    display: block;
+}
+hr { border:1px dashed #E8F9FD;
+    width: 50px;   
+}
+
+img{
+    border-radius: 50%;
+}
+
